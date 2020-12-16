@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: url('weatherBg.png') no-repeat center center fixed;
+}
+
+

@@ -1,0 +1,35 @@
+form{
+    padding-top: 20px;
+  }
+form input[name="city"],
+form input[name="country"]{
+    background-color: rgba(255,255,255,.7);
+    margin:auto;
+    color: black !important ;
+    border-radius: 10px;
+    border: 1;
+    margin-top: 20px !important;
+}
+form input:focus{
+    background-color: transparent;
+}
+form input, .container::-webkit-input-placeholder{
+    color: white !important;
+    height: 40px;
+}
+form button{
+    margin-top: 20px;
+    border-radius: 10px !important;
+    height: 38px;
+    border: none;
+    border-color: white;
+    background-color: rgba(255, 255, 255, .7);
+    transition: .4s;
+}
+button:hover{
+    background-color: #7ec478;
+}
+form:clicked{
+    outline:none;
+    text-decoration: none;
+}
