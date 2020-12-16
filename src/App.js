@@ -81,7 +81,7 @@ class App extends React.Component {
 
 
       this.setState({
-        city: `${response.name},${response.sys.country}`,
+        city: `${response.name} , ${response.sys.country}`,
         celsius: this.calcCelsius(response.main.temp),
         description: response.weather[0].description,
         error: false,
